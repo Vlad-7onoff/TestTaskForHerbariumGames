@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEditor.EditorTools;
 using UnityEditor.Experimental.SceneManagement;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 [EditorTool(displayName: "Custom snap move", typeof(CustomSnap))]
 public class CustomSnappingTool : EditorTool
