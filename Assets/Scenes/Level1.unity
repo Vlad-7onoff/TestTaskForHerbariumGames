@@ -338,6 +338,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
+        type: 3}
+      propertyPath: _cooldownFirstShoot
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
+        type: 3}
+      propertyPath: _cooldown
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3, type: 3}
 --- !u!4 &178160669 stripped
@@ -634,6 +644,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
+        type: 3}
+      propertyPath: _cooldownFirstShoot
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
+        type: 3}
+      propertyPath: _cooldown
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3, type: 3}
@@ -1040,7 +1060,12 @@ PrefabInstance:
     - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
         type: 3}
       propertyPath: _cooldownFirstShoot
-      value: 5
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
+        type: 3}
+      propertyPath: _cooldown
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3, type: 3}
@@ -1703,7 +1728,12 @@ PrefabInstance:
     - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
         type: 3}
       propertyPath: _cooldownFirstShoot
-      value: 6
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
+        type: 3}
+      propertyPath: _cooldown
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3, type: 3}

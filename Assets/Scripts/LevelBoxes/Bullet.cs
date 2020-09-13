@@ -15,10 +15,8 @@ public class Bullet : MonoBehaviour
         {
             player.Die();
         }
-        if (other.gameObject)
-        {
+        else
             Die();
-        }
     }
 
     private void Die()
