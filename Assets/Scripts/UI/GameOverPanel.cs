@@ -50,7 +50,6 @@ public class GameOverPanel : MonoBehaviour
 
     private void OnRestartClick()
     {
-        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     private void GameOver()
@@ -61,7 +60,6 @@ public class GameOverPanel : MonoBehaviour
     private IEnumerator DelayGameOver()
     {
         yield return new WaitForSeconds(_delayGameOver);
-        Time.timeScale = 0;
         _gameOverGroup.alpha = 1;
         _gameOverGroup.interactable = true;
         _gameOverGroup.blocksRaycasts = true;

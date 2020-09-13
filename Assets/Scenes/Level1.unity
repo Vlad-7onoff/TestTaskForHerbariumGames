@@ -1728,7 +1728,7 @@ PrefabInstance:
     - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
         type: 3}
       propertyPath: _cooldownFirstShoot
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5089464934683606126, guid: 5ab026192b9e3aa43b8b4ba0fa9cc7d3,
         type: 3}

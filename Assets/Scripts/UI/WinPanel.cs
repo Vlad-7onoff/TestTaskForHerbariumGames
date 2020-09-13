@@ -47,7 +47,6 @@ public class WinPanel : MonoBehaviour
 
     private void Win()
     {
-        Time.timeScale = 0;
         _canvasGroup.alpha = 1;
         _canvasGroup.interactable = true;
         _canvasGroup.blocksRaycasts = true;
